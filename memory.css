@@ -1,0 +1,149 @@
+<style>
+
+h1{
+color:black;
+font-family:ravie;
+text-align:center;
+}
+
+span    {
+color:red;
+font-family:ravie;
+}
+
+span1   {
+color:#8A2BE2;
+font-family:ravie;
+}
+
+span2   {
+color:#8B0000;
+font-family:ravie;
+}
+
+span3   {
+color:yellow;
+font-family:ravie;
+}
+
+span4   {
+color:red;
+font-family:ravie;
+}
+
+span5   {
+color:#FF00FF;
+font-family:ravie;
+}
+   
+ span6  {
+color: #7CFC00;
+font-family:ravie;
+}
+
+span7   {
+color:#008000;
+font-family:ravie;
+}
+
+span8   {
+color:#191970;
+font-family:ravie;
+}
+
+span9   {
+color:#FF4500;
+font-family:ravie;
+}
+
+ body    {
+background:url (bigger-colors.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+ div#memory_board   {
+text-align:center;
+background-color: lightgrey;
+width:400px;
+height:450px;
+padding:25px;
+border:20px solid black;
+margin:25px;
+}
+   
+div#box1 {
+  background: red;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+   width: 95px;
+  margin-top:10px;
+   margin-bottom:35px;
+   margin-left:10px;
+   margin-right:10px;
+  transition:all .3s ease-in-out;
+}
+    
+ 
+div#box2 {
+  background: green;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+   width: 95px;
+  margin-top:10px;
+   margin-bottom:35px;
+   margin-left:10px;
+   margin-right:10px;
+}
+
+div#box3 {
+  background: blue;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+   width: 95px;
+   margin-top:10px;
+   margin-bottom:35px;
+   margin-left:10px;
+   margin-right:10px;
+}
+
+div#box4 {
+  background: yellow;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+   width: 95px;
+   margin-top:10px;
+   margin-bottom:35px;
+   margin-left:10px;
+   margin-right:10px;
+}
+button  {
+    color:grey;
+   
+    }
+    
+   
+ .img src {
+ margin-top:10px;
+   margin-bottom:35px;
+   margin-left:10px;
+   margin-right:10px;
+   background-position:center;
+} 
+
+</style>
+
+    
