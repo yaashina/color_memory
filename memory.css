@@ -87,6 +87,8 @@ div#box1 {
    margin-right:10px;
   transition:all .3s ease-in-out;
 }
+
+
     
  
 div#box2 {
@@ -130,10 +132,6 @@ div#box4 {
    margin-left:10px;
    margin-right:10px;
 }
-button  {
-    color:grey;
-   
-    }
     
    
  .img src {
@@ -143,6 +141,22 @@ button  {
    margin-right:10px;
    background-position:center;
 } 
+
+label {
+    background-color: black;
+    font-weight:bold;
+    vertical-align:top;
+    text-align:right;  
+    padding: 8px 5px 8px 8px;
+    margin:  1px 3px 1px 0px;     
+    min-width: 120px;
+    min-height:100%;    
+    height:auto !important;
+    height:100%;
+    border-radius: 6px;
+}
+
+
 
 </style>
 
