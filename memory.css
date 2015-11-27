@@ -71,81 +71,93 @@ padding:25px;
 border:20px solid black;
 margin:25px;
 }
+
+.instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+   }
    
-div#box1 {
-  background: red;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 95px;
-  line-height: 95px;
-  text-align: center;
-   width: 95px;
-  margin-top:10px;
-   margin-bottom:35px;
-   margin-left:10px;
-   margin-right:10px;
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
 }
 
 
-    
- 
-div#box2 {
-  background: green;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 95px;
-  line-height: 95px;
-  text-align: center;
-   width: 95px;
-  margin-top:10px;
-   margin-bottom:35px;
-   margin-left:10px;
-   margin-right:10px;
+#c:hover {
+    background-color:#661920;
+    cursor: pointer;
+  
 }
 
-div#box3 {
-  background: blue;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 95px;
-  line-height: 95px;
-  text-align: center;
-   width: 95px;
-   margin-top:10px;
-   margin-bottom:35px;
-   margin-left:10px;
-   margin-right:10px;
+
+ #e:hover {
+    background-color:#735b20;
+    cursor: pointer;
 }
 
-div#box4 {
-  background: yellow;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 95px;
-  line-height: 95px;
-  text-align: center;
-   width: 95px;
-   margin-top:10px;
-   margin-bottom:35px;
-   margin-left:10px;
-   margin-right:10px;
+#f:hover {
+    background-color:#1b613b;
+    cursor: pointer;
 }
-    
-   
- .img src {
- margin-top:10px;
-   margin-bottom:35px;
-   margin-left:10px;
-   margin-right:10px;
-   background-position:center;
-} 
 
+#g:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+
+
+#c:active {
+    background-color:red;   
+}
+
+#e:active {
+    background-color:yellow;   
+}
+
+#f:active {
+    background-color:green;   
+}
+
+#g:active {
+    background-color:blue;   
+}
+
+     
 label {
     background-color: black;
     font-weight:bold;
     vertical-align:top;
     text-align:right;  
-    padding: 8px 5px 8px 8px;
+    padding: 8px 8px 8px 8px;
     margin:  1px 3px 1px 0px;     
     min-width: 120px;
     min-height:100%;    
@@ -154,11 +166,11 @@ label {
     border-radius: 6px;
 }
 
-.box5    {
-width:150px;
+.box1 {
+width:200px;
 -webkit transition:all .2s;
 background:#e3e3e3;
-line-height:30px;
+line-height:50px;
 text-align:center;
 font-weight:bold;
 color:#333;
@@ -168,13 +180,16 @@ box-shadow: 0px 0px 2px rgba(0,0,0, .5);
                             cursor:pointer;
   }
   
-  .box5:hover{
+  .box1:hover{
   color:white;
   background:#333;
   cursor:pointer;
 
- 
   }
+                            
+                            
+
+    
 
 
     
