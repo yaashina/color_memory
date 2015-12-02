@@ -7,49 +7,106 @@
 
 <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 <script type="text/javascript">
-</script>
+
+
+$(document).ready( function() {
+    
+    // This controls the button for the c note.
+    
+    // This variable calls the cNote audio element in the HTML.
+    var cNote = document.getElementById('cAudio');
+    
+    // This turns our <div id= "c"> into a button that plays our audio file when the box is pressed.
+    $('#c').mousedown(function(){
+        
+        // This is a property that scrubs the audio file back to its start.
+        cNote.currentTime = 0;
+        
+        // This plays the audio file.
+        cNote.play();
+    });
+    
+    
+    // This controls the button for the e note.
+    
+    var eNote = document.getElementById('eAudio');
+    
+    $('#e').mousedown(function(){
+        eNote.currentTime = 0;
+        eNote.play();
+    });
+ 
+    // This controls the button for the f note.
+    
+    var fNote = document.getElementById('fAudio');
+    
+    $('#f').mousedown(function(){
+        fNote.currentTime = 0;
+        fNote.play();
+    });
+    
+    // This controls the button for the g note.
+    
+    var gNote = document.getElementById('gAudio');
+    
+    $('#g').mousedown(function(){
+        gNote.currentTime = 0;
+        gNote.play();
+    });
+         
+});
+         
+  </script>
 
 </head>
 
 <body background="bigger-colors.jpg"> 
-
   
+        
 
-
-<center><div id="memory_board">
+ <center><div id="memory_board">
 <h1><center>C<span>O<span1>L<span2>O<span3>R <span4>M<span5>E<span6>M<span7>O<span8>R<span9>Y</center></h1>
-<br>
 
-<center><label><input type="text"></label></center>
-<br>
+<center> <input type="button" value="Go!" name="b" ></center>
+<center><td width="20%" align="center"><font size="3">Level<br></font><input type="text" size="4" value="1" name="st" readonly></td></center>
 
 <table align="center">
-
-
 <tr><div class="instrument">
 
         <th><div id="c" class="box"></div></th>
         <th><div id="e" class="box"></div></th>
     </tr>
-    
-    <tr>
-        <th><div id="f" class="box"></div></th>
-        <th><div id="g" class="box"></div></th>
+        <tr>
+            <th><div id="f" class="box"></div></th>
+            <th><div id="g" class="box"></div></th>
 	</tr>
   
    </div>
    </table>
-   <br>
-
+<br>
      <tr>   
         <th><center><div class="box1"><a href="start.html">BACK</div></center></th>
     </tr>
- 
- 
+    
+     <audio id="cAudio">
+        <source src="c_note.mp3" type="audio/mpeg"></source>
+      <audio>
+           
+    <audio id="eAudio">
+        <source src="e_note.mp3" type="audio/mpeg"></source>
+        </audio>
+             
+   <audio id="fAudio">
+        <source src="f_note.mp3" type="audio/mpeg"></source>
+         </audio>
+    
+    <audio id="gAudio">
+        <source src="g_note.mp3" type="audio/mpeg"></source>
+      </audio>
 
-
-</center>
-
+     
+    </center>
+   
 </div>
 </body>
 </html>
